@@ -93,6 +93,8 @@
   + GitHub
   + Notion
   + Discord
+ 
+## 🗂 패키지 구조
 
 ## 🤲 방향(訪香) 팀원 소개
 
