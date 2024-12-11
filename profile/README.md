@@ -24,4 +24,78 @@
 사용자가 원하는 향의 느낌을 들어보고 그에 맞는 향수를 제시해드립니다.   
 ***향수에 대한 정확한 설명이 아니어도 괜찮습니다.***   
 당장 떠오르는 느낌이나 분위기나 상황, 또는 사진을 보여주시면 그에 어울리는 향수를 추천해드립니다.
+
 ## 🛠 방향(訪香)의 주요 기능
+* 카카오 연동 회원가입
+  + 카카오와 연동하여 카카오 계정 정보 그대로 회원가입과 로그인이 가능합니다.
+  + 회원 탈퇴를 진행할 수 있습니다.
+* 향료 알아가기
+  + 방향(訪香)에 등록 되어있는 향료들의 정보를 조회할 수 있습니다.
+  + 계열을 선택하여 해당 계열의 향료만 조회할 수 있습니다.
+  + 향료의 이름을 검색하여 조회할 수 있습니다.
+* 향수 알아가기
+  + 방향(訪香)에 등록 되어있는 향수들의 정보를 조회할 수 있습니다.
+  + 부향률을 선택하여 해당하는 향수만 조회할 수 있습니다.
+  + 향수의 이름을 검색하여 조회할 수 있습니다.
+* 향수 추천받기
+  + AI 센티크와의 채팅으로 향수 추천이 이루어집니다.
+  + 이전에 나눴던 채팅 기록을 조회할 수 있습니다.
+  + 사용자는 텍스트 또는 이미지 또는 둘 다 사용하여 원하는 향수에 대한 느낌을 입력합니다.
+  + 이미지 파일은 **salesforce**의 image to text model인 **BLIP**을 통해 내용을 분석합니다.
+  + 사용자의 텍스트 입력값과 첨부 이미지 분석 결과를 **chatGPT**로 전송하여 향수 추천 결과와 이미지 생성 프롬프트를 생성합니다.
+  + **chatGPT**를 통해 생성된 이미지 생성 프롬프트를 text to image model인 **Stable Diffusion**에 전송하여 피드백 이미지를 생성합니다.
+  + 생성된 향수 추천 결과와 피드백 이미지를 사용자에게 제공합니다.
+  + 추천 결과의 계열 정보에 따라 채팅창 UI의 색상이 함께 변화합니다.
+  + 키워드를 검색하여 키워드가 포함된 채팅 결과를 조회할 수 있습니다.
+  + 생성된 향수 추천 결과를 히스토리로 저장할 수 있습니다.
+* 히스토리 조회
+  + 저장했던 히스토리를 조회할 수 있습니다.
+  + 저장된 히스토리를 이미지 파일로 제공받을 수 있습니다.
+ 
+## 🥽 방향(訪香)이 사용한 기술
+* Spring
+  + IntelliJ IDEA
+  + Spring Boot 3.3.5
+  + Spring Cache
+  + Spring Web
+  + Spring Webflux
+  + Spring Lombok
+  + Spring JPA
+  + MySQL
+  + MongoDB
+  + AWS S3
+  + Postman
+* Python
+  + Visual Studio Code IDE
+  + Fast API
+  + uvicorn
+  + ipywidgets
+  + Accelerate
+  + Selenium
+  + Web driver manager
+  + Base4 BeautifulSoup
+  + MySQL connector
+  + Langchain OpenAI
+  + dotenv
+  + Pillow
+  + scikit learn
+  + Transformers
+  + Pytorch
+  + diffusers
+  + replicate
+  + requests
+* React
+  + Visual Studio Code IDE
+  + Redux
+  + React Router DOM
+  + Axios
+* 협업 도구
+  + GitHub
+  + Notion
+  + Discord
+
+## 🤲 방향(訪香) 팀원 소개
+
+## 📐 방향(訪香)이 개선할 방향(方向)
+
+## 🎞 프로젝트 진행 소감
