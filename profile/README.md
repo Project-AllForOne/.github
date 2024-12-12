@@ -95,6 +95,20 @@
   + Discord
  
 ## 🗂 패키지 구조
+Python
+```
+\---perfume_recommendation
+    +---generated_images
+    +---models
+    |   \---__pycache__
+    +---routers
+    |   \---__pycache__
+    +---services
+    |   \---__pycache__
+    +---utils
+    |   \---__pycache__
+    \---__pycache__
+```
 
 ## 🤲 방향(訪香) 팀원 소개
 
