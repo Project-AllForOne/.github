@@ -95,19 +95,90 @@
   + Discord
  
 ## 🗂 패키지 구조
-Python
+* Spring
 ```
-\---perfume_recommendation
-    +---generated_images
-    +---models
-    |   \---__pycache__
-    +---routers
-    |   \---__pycache__
-    +---services
-    |   \---__pycache__
-    +---utils
-    |   \---__pycache__
-    \---__pycache__
+com
+    └─banghyang
+        ├─auth
+        │  └─kakao
+        │      ├─client
+        │      ├─config
+        │      ├─controller
+        │      ├─model
+        │      │  └─dto
+        │      └─service
+        ├─chat
+        │  ├─controller
+        │  ├─dto
+        │  ├─entity
+        │  ├─repository
+        │  └─service
+        ├─common
+        │  ├─config
+        │  ├─mapper
+        │  ├─type
+        │  └─util
+        ├─history
+        │  ├─controller
+        │  ├─dto
+        │  ├─entity
+        │  ├─repository
+        │  └─service
+        ├─member
+        │  ├─controller
+        │  ├─dto
+        │  ├─entity
+        │  ├─repository
+        │  └─service
+        └─object
+            ├─line
+            │  ├─entity
+            │  └─repository
+            ├─note
+            │  ├─entity
+            │  └─repository
+            ├─perfume
+            │  ├─controller
+            │  ├─dto
+            │  ├─entity
+            │  ├─repository
+            │  └─service
+            └─spice
+                ├─controller
+                ├─dto
+                ├─entity
+                ├─repository
+                └─service
+```
+* Python
+```
+├─generated_images
+├─models
+├─routers
+├─services
+└─utils
+```
+* React
+```
+├─api
+├─components
+│  ├─footer
+│  ├─loading
+│  ├─login
+│  └─sidebar
+├─css
+│  ├─admin
+│  ├─components
+│  └─footer
+├─layouts
+├─module
+└─pages
+    ├─admin
+    ├─booklist
+    ├─chat
+    ├─footer
+    ├─history
+    └─test
 ```
 
 ## 🤲 방향(訪香) 팀원 소개
@@ -136,3 +207,8 @@ Python
 걱정한것보다 더 좋은 결과를 만들어낸 것 같아서 뿌듯합니다.   
 좋은 결과가 나온만큼 위의 개선점과 더불어 앞으로 방향 프로젝트를 더 개선해나가서   
 실제로 상용화 될 수 있는 서비스로 거듭날 수 있도록 하고 싶습니다.
+* 혜연 : 
+* 강현 : 
+* 성은 : 
+* 규섭 : 
+* 은혜 : 
