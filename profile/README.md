@@ -205,7 +205,7 @@ com
     └─test
 ```
 ## 🏗 방향(訪香) 산출물
-![image](https://github.com/user-attachments/assets/64d9b25c-59e5-499b-8a47-876fc4d18263)
+![image](https://github.com/user-attachments/assets/6aaa5438-b703-4ab1-8925-f20e6d8d804f)
 
 
 ## 🤲 방향(訪香) 팀원 소개
