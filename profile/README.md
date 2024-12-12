@@ -153,11 +153,34 @@ com
 ```
 * Python
 ```
-├─generated_images
+  .env
+│  .gitignore
+│  cache_timestamp.txt
+│  main.py
+│  perfume_cache.json
+│
 ├─models
+│  │  img_llm_client.py
+│  │  line.json
+│  │  prompt_template.json
+│  └─ prompt_template.txt
+│
 ├─routers
+│  │  image_generation_description_router.py
+│  │  image_generation_router.py
+│  │  image_processing_router.py
+│  └─ llm_router.py
+│
 ├─services
+│  │  db_service.py
+│  │  image_generation_service.py
+│  │  image_processing_service.py
+│  │  llm_img_service.py
+│  │  llm_service.py
+│  └─ prompt_loader.py
+│
 └─utils
+   └─ line_mapping.py
 ```
 * React
 ```
