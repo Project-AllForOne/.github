@@ -205,7 +205,6 @@ com
     └─test
 ```
 ## 🏗 방향(訪香) 산출물
-* 서비스 아키텍처
 ![image](https://github.com/user-attachments/assets/64d9b25c-59e5-499b-8a47-876fc4d18263)
 
 
